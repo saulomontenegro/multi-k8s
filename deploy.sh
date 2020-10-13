@@ -4,6 +4,7 @@ docker build -t stephengrider/multi-worker:latest -t stephengrider/multi-worker:
 docker push stephengrider/multi-client:latest
 docker push stephengrider/multi-server:latest
 docker push stephengrider/multi-worker:latest
+
 docker push stephengrider/multi-client:$SHA
 docker push stephengrider/multi-server:$SHA
 docker push stephengrider/multi-worker:$SHA
